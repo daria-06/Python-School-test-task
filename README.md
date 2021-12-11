@@ -12,7 +12,7 @@ This is a test task for Yalantis Python School 2022: REST API using Python, Djan
 
 ## Usage
 
-After setting it up as described in SETUP.md and running the project using ```python manage.py runserver```, you can use either POSTMAN or go directly to http://127.0.0.1:8000/ in browser for testing it
+After setting it up as described in [SETUP.md](https://github.com/daria-06/python-school-test-task/blob/master/SETUP.md) and running the project using ```python manage.py runserver```, you can use either POSTMAN or go directly to http://127.0.0.1:8000/ in browser for testing it
 
 ### Endpoints and methods
 
