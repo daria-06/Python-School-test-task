@@ -4,11 +4,18 @@ This is a test task for Yalantis Python School 2022: REST API using Python, Djan
 
 ## Task (brief version)
 
-Розробіть REST API для парку машин з водіями
++ Розробіть REST API для парку машин з водіями
++ Створіть таблиці (моделі) - Driver + Vehicle
++ Створіть перелік відкритих (без аутентифікацій) endpointів
++ README.md - короткий опис проекту - must have
++ Інструкция по розгортанню SETUP.md - must have
++ Список залежностей requirements.txt - must have
++ Python version >= 3.9.0
++ Frameworks - Django/Flask
++ Використання сторонніх бібліотек не заборонено - головне знати міру :-)
++ Database - SQLite
++ Github/Bitbucket/GitLab
 
-Створіть таблиці (моделі) - Driver + Vehicle
-
-Створіть перелік відкритих (без аутентифікацій) endpointів
 
 ## Usage
 
