@@ -25,4 +25,4 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 
-5. Go to http://127.0.0.1:8000/ or use POSTMAN to test this. Refer to README.md to see all possible endpoints and methods.
+5. Go to http://127.0.0.1:8000/ or use POSTMAN to test this. Refer to [README.md](https://github.com/daria-06/python-school-test-task/blob/master/README.md) to see all possible endpoints and methods.
