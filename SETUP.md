@@ -2,7 +2,7 @@
 
 1. Clone repository
 
- `$ git clone https://github.com/daria-06/Python-School-test.git`
+ `$ git clone https://github.com/daria-06/python-school-test-task.git`
 
 2. Install requirements:
 
