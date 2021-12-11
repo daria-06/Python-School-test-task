@@ -11,6 +11,7 @@
 3. Set up database
 
 `$ python manage.py makemigrations`
+
 `$ python manage.py migrate`
 
 4. Run the app:
