@@ -16,7 +16,14 @@ After setting it up as described in SETUP.md and running the project using ```py
 
 ### Endpoints and methods
 
-POST `/drivers/driver/` - add new driver
+POST `/drivers/driver/` - add new driver, for example:
+
+```
+{
+   "first_name": "Frodo",
+   "last_name": "Baggins"
+}
+```
 
 GET `/drivers/driver/` - show all drivers
 
@@ -27,7 +34,15 @@ UPDATE `/drivers/driver/<driver_id>/` - edit driver info
 DELETE `/drivers/driver/<driver_id>/` - delete driver
 
 
-POST `/vehicles/vehicle/` - add new vehicle
+POST `/vehicles/vehicle/` - add new vehicle, for example
+
+```
+{
+   "make": "Toyota",
+   "model": "Corolla",
+   "plate_number": "AA 1234 OO"
+}
+```
 
 GET `/vehicles/vehicle/` - show all vehicles
 
@@ -37,7 +52,33 @@ UPDATE `/vehicles/vehicle/<vehicle_id>/` - edit vehicle info
 
 DELETE `/vehicles/vehicle/<vehicle_id>/` - delete vehicle
 
-(POST) UPDATE* `/vehicles/set_driver/<vehicle_id>/` - putting driver in the vehicle/removing driver from the vehicle (you are required to put driver ID in JSON or set it to null to remove driver from the car)
+(POST) UPDATE* `/vehicles/set_driver/<vehicle_id>/` - putting driver in the vehicle/removing driver from the vehicle (you are required to put driver ID in JSON or set it to null to remove driver from the car). For exapmple, retreiving vehicle by ID at this endpoint may give you this:
+
+```
+{
+   "id": "3",
+   "driver_id": 6,
+   "driver_name": "Frodo Baggins",
+   "make": "BMW",
+   "model": "X7",
+   "plate_number": "AA 4242 OO"
+}
+```
+To change driver, it is enough to do this:
+
+```
+{
+   "driver_id": 2
+}
+```
+
+or, to remove driver completely:
+
+```
+{
+   "driver_id": null
+}
+```
 
 \* I could not figure out how to implement POST as required here, that is why I implemented UPDATE
 
