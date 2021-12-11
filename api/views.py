@@ -1,12 +1,7 @@
-from rest_framework import serializers, viewsets
-from rest_framework.views import APIView
-from django.http import Http404
 from .serializers import DriverSerializer, VehicleListSerializer, VehicleDetailSerializer, VehicleSetDriverSerializer
 from .models import Driver, Vehicle
-from rest_framework import status
-from rest_framework.response import Response
 from django_filters import FilterSet, BooleanFilter, DateFilter
-from rest_framework import generics, mixins
+from rest_framework import generics
 
 
 class DriverFilter(FilterSet):
