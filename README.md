@@ -12,7 +12,6 @@ This is a test task for Yalantis Python School 2022: REST API using Python, Djan
 + Список залежностей requirements.txt - must have
 + Python version >= 3.9.0
 + Frameworks - Django/Flask
-+ Використання сторонніх бібліотек не заборонено - головне знати міру :-)
 + Database - SQLite
 + Github/Bitbucket/GitLab
 
