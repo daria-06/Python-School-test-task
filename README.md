@@ -58,7 +58,7 @@ UPDATE `/vehicles/vehicle/<vehicle_id>/` - edit vehicle info
 
 DELETE `/vehicles/vehicle/<vehicle_id>/` - delete vehicle
 
-(POST) UPDATE* `/vehicles/set_driver/<vehicle_id>/` - putting driver in the vehicle/removing driver from the vehicle (you are required to put driver ID in JSON or set it to null to remove driver from the car). For example, retreiving vehicle by ID at this endpoint may give you this:
+POST `/vehicles/set_driver/<vehicle_id>/` - putting driver in the vehicle/removing driver from the vehicle (you are required to put driver ID in JSON or set it to null to remove driver from the car). For example, retreiving vehicle by ID at this endpoint may give you this:
 
 ```
 {
@@ -85,8 +85,6 @@ or, to remove driver completely:
    "driver_id": null
 }
 ```
-
-\* I could not figure out how to implement POST as required here, that is why I implemented UPDATE
 
 ### Filters
 
