@@ -90,9 +90,9 @@ or, to remove driver completely:
 
 ### Filters
 
-GET `/drivers/driver/?created_at__gte=2021-12-08` - show drivers created after 08-12-2021
+GET `/drivers/driver/?created_at__gte=2021-12-08` - show drivers created after 08-12-2021 (can be any date in ISO format)
 
-GET `/drivers/driver/?created_at__lte=2021-12-09` - show drivers created after 09-12-2021
+GET `/drivers/driver/?created_at__lte=2021-12-09` - show drivers created after 09-12-2021 (can be any date in ISO format)
 
 GET `/vehicles/vehicle/?with_drivers=true` - show vehicles with drivers
 
